@@ -26,7 +26,17 @@ try:
 except Exception:
     urlreq = None
 
-DB_PATH = Path("knowledge.json")
+import sys
+from pathlib import Path
+
+# Carpeta donde está el EXE (o el .py si estás desarrollando)
+if getattr(sys, "frozen", False):
+    RUN_DIR = Path(sys.executable).parent
+else:
+    RUN_DIR = Path(__file__).parent
+
+DB_PATH = RUN_DIR / "knowledge.json"
+
 MAX_IMG_SIZE = (800, 500)  # ancho, alto máximos dentro de la ventana
 
 # --------------------------

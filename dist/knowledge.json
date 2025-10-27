@@ -1,0 +1,175 @@
+{
+  "cars": [
+    {
+      "name": "Ferrari F40",
+      "bits": "1-1-0-1-1",
+      "img": null
+    },
+    {
+      "name": "Lamborghini Diablo",
+      "bits": "1-1-1-0-1",
+      "img": null
+    },
+    {
+      "name": "Porsche 959",
+      "bits": "1-1-1-1-1",
+      "img": null
+    },
+    {
+      "name": "McLaren F1",
+      "bits": "1-1-0-0-1-1",
+      "img": null
+    },
+    {
+      "name": "Pagani Zonda  c12",
+      "bits": "1-1-0-0-1-0",
+      "img": null
+    },
+    {
+      "name": "corvette c8 zr1",
+      "bits": "0-0-0-1-1",
+      "img": null
+    },
+    {
+      "name": "Bugatti Veyron",
+      "bits": "1-0-1-1-1",
+      "img": null
+    },
+    {
+      "name": "Maserati MC12",
+      "bits": "1-0-0-0-1",
+      "img": null
+    },
+    {
+      "name": "Alfa Romeo 8C Competizione",
+      "bits": "1-0-0-0-0",
+      "img": null
+    },
+    {
+      "name": "corvette e ray",
+      "bits": "0-0-1-0-1",
+      "img": null
+    },
+    {
+      "name": "BMW M3 E30",
+      "bits": "1-1-0-0-0",
+      "img": null
+    },
+    {
+      "name": "acura ",
+      "bits": "0-0-1-1-1",
+      "img": null
+    },
+    {
+      "name": "Audi R8",
+      "bits": "1-0-1-0-1",
+      "img": null
+    },
+    {
+      "name": "Jeep wilis",
+      "bits": "0-1-1-0-0",
+      "img": null
+    },
+    {
+      "name": "Koenigsegg Agera RS",
+      "bits": "1-0-0-1-1",
+      "img": null
+    },
+    {
+      "name": "M3 e92",
+      "bits": "1-0-0-1-0",
+      "img": null
+    },
+    {
+      "name": "Ford GT40 (1964)",
+      "bits": "0-1-0-0-1-1",
+      "img": null
+    },
+    {
+      "name": "Honda NSX (1990)",
+      "bits": "0-1-0-0-1-0",
+      "img": null
+    },
+    {
+      "name": "Chevrolet Corvette C1",
+      "bits": "0-1-0-0-0",
+      "img": null
+    },
+    {
+      "name": "Dodge Challenger Hellcat (2015)",
+      "bits": "0-0-0-1-0",
+      "img": null
+    },
+    {
+      "name": "Nissan GT-R R35(1999)",
+      "bits": "0-1-1-1-0",
+      "img": null
+    },
+    {
+      "name": "Toyota Supra MK4 (1993)",
+      "bits": "0-1-0-1-0-0",
+      "img": null
+    },
+    {
+      "name": "Mazda RX-7 FD (1992)",
+      "bits": "0-1-0-1-0-1",
+      "img": null
+    },
+    {
+      "name": "Apollo IE ",
+      "bits": "0-0-0-0-1",
+      "img": null
+    },
+    {
+      "name": "Mitsubishi Lancer Evolution IX ",
+      "bits": "0-0-1-1-0",
+      "img": null
+    },
+    {
+      "name": "golf mk4 tdi",
+      "bits": "1-1-0-1-0",
+      "img": null
+    },
+    {
+      "name": "Audi RS4 B7",
+      "bits": "1-0-1-0-0",
+      "img": null
+    },
+    {
+      "name": "Lexus LFA (2010)",
+      "bits": "0-0-0-0-0",
+      "img": null
+    },
+    {
+      "name": "audi rs3 8v",
+      "bits": "1-0-1-1-0",
+      "img": null
+    },
+    {
+      "name": "Tesla model s plaid",
+      "bits": "0-0-1-0-0",
+      "img": null
+    },
+    {
+      "name": "Ford Sierra RS Cosworth (4x4)",
+      "bits": "1-1-1-1-0",
+      "img": null
+    },
+    {
+      "name": "Mercedes-Benz G500 W463",
+      "bits": "1-1-1-0-0",
+      "img": null
+    }
+  ],
+  "duplex_rules": {
+    "1-1-0-0-1": {
+      "question": "¿El coche tiene un asiento central en el habitáculo?"
+    },
+    "0-1-0-0-1": {
+      "question": "¿El coche fue diseñado originalmente para competir en Le Mans?"
+    },
+    "0-1-0-1-0": {
+      "question": "¿El coche utiliza un motor rotativo (Wankel)?"
+    }
+  }
+}
